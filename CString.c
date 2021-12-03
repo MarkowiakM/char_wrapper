@@ -1,7 +1,11 @@
 #include "CString.h"
 
 
-CString* cstring_new(const char* str);
+CString* cstring_new(const char* str) {
+    CString* cstring;
+    cstring = malloc(sizeof(CString));
+
+}
 
 int cstring_length() {
     return 1;
