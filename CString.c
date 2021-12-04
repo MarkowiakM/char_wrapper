@@ -1,4 +1,8 @@
+#include <stdlib.h>
+#include <string.h>
+
 #include "CString.h"
+
 
 CString *cstring_new(const char *str) {
 
