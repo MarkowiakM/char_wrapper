@@ -3,7 +3,6 @@
 
 #include "CString.h"
 
-
 CString *cstring_new(const char *str) {
 
     CString *cstring;
